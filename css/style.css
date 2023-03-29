@@ -1,0 +1,26 @@
+/* css custom properties */
+:root {
+    /* Colors */
+    /* Primary */
+
+    --clr-Soft-blue: hsl(215, 51%, 70%);
+    --clr-Cyan: hsl(178, 100%, 50%);
+
+    /* Neutral */
+    /* main bg */
+    --clr-Very-dark-blue: hsl(217, 54%, 11%);
+
+    /* card bg */
+    --clr-Very-dark-blue: hsl(216, 50%, 16%);
+
+    /* line */
+    --clr-Very-dark-blue: hsl(215, 32%, 27%);
+
+    --clr-White: hsl(0, 0%, 100%);
+
+     /* body */
+     --fs-base: 18px;
+
+    /* font */
+    --ff-primary: 'Outfit', sans-serif;
+}
