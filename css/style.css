@@ -11,16 +11,102 @@
     --clr-Very-dark-blue: hsl(217, 54%, 11%);
 
     /* card bg */
-    --clr-Very-dark-blue: hsl(216, 50%, 16%);
+    --clr-dark-blue: hsl(216, 50%, 16%);
 
     /* line */
-    --clr-Very-dark-blue: hsl(215, 32%, 27%);
+    --clr-blue: hsl(215, 32%, 27%);
 
     --clr-White: hsl(0, 0%, 100%);
 
      /* body */
-     --fs-base: 18px;
+    --fs-base: 18px;
 
     /* font */
     --ff-primary: 'Outfit', sans-serif;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: var(--fs-base);
+}
+
+body{ 
+    background-color: var(--clr-dark-blue);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+main{
+    background-color: var(--clr-Very-dark-blue);
+    padding: 2rem;
+    padding-bottom: 5rem;
+    border-radius: 4rem;
+}
+
+main > div{
+    background-color: var(--clr-dark-blue);
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.equilibrium{
+    border-radius: 20px;
+}
+
+h1{
+    color: var(--clr-White);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-primary);
+    font-size: 3rem;
+}
+
+p, .creator span, .clock span, pre{
+    color: var(--clr-Soft-blue);
+    font-weight: var(--fw-light);
+    font-size: 2rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.ethereum span{
+    color: var(--clr-Cyan);
+    font-weight: var(--fw-bold);
+    font-size: 2rem;
+}
+
+.creator{
+    border-top: .5px solid var(--clr-Soft-blue);
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+em{
+    color: var(--clr-White);
+    font-size: 2rem;
+    font-weight: var(--fw-regular);
+}
+
+.creator img{
+    border: 1px solid var(--clr-White);
+    border-radius: 50%;
 }
