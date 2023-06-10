@@ -35,4 +35,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - https://www.frontendmentor.io/profile/DezzaAnnePeregrina
-- Twitter - https://github.com/DezzaAnnePeregrina
+- Twitter - https://twitter.com/DezzaPeregrina
